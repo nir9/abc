@@ -1,4 +1,4 @@
-A B Compiler
+B Compiler
 ============
 
 abc is a compiler for the [B Programming Language](http://en.wikipedia.org/wiki/B_(programming_language)) that targets x86\_32 processors. It is currently tested under Linux but should work (or at least be easily ported) to other UNIX-like systems. The code is based on [an early C compiler (last1120c)](http://www.cs.bell-labs.com/who/dmr/primevalC.html) by Dennis Ritchie.
@@ -50,4 +50,4 @@ Since command line parameters aren't passed word-aligned, B can't handle them ea
 
 The library is incomplete but has some of the most important functions.
 
-I have only tested the compiler on an x86\_64 gentoo system.
+I have tested the compiler on a x86\_64 Debian system.
